@@ -1,0 +1,42 @@
+{
+  "name": "map-new",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "map-convert": "browserify ./public/js/map.js -o ./public/js/bundle.js && node server.js",
+    "map-changeable-ajax": "browserify ./public/js/map-changeable-ajax.js -o ./public/js/bundle-ajax.js && node server.js",
+    "map-changeable-ajax-coord": "browserify ./public/js/map-changeable-ajax-coord.js -o ./public/js/bundle-ajax-coord.js && node server.js"
+  },
+  "keywords": [],
+  "author": "Vedaant Dutt",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "cors": "^2.8.5",
+    "esri": "^0.0.1-security",
+    "express": "^4.17.0",
+    "favicons": "^6.2.0",
+    "jquery": "^3.5.1",
+    "leaflet": "^1.9.4",
+    "mime": "^2.4.6",
+    "npx": "^10.2.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "resolve": "^1.17.0",
+    "uniq": "^1.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/plugin-proposal-private-property-in-object": "^7.10.4",
+    "@babel/preset-env": "^7.11.0",
+    "@types/leaflet": "^1.5.16",
+    "eslint": "^7.7.0",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "description": ""
+}
