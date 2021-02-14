@@ -32,7 +32,7 @@ An interactive world map application built with the Leaflet JS library and hoste
    ```
 
 
-5.Open your browser and go to
+5. Open your browser and go to
    ```bash
    http://localhost:8080
    ```
